@@ -9,6 +9,7 @@
   --light-green-color: #d4e682;
   --light-orange-color: #f5b359;
   --card-background: #007d8c;
+  --dark-blue-color: #003264;
 }
 
 body {
@@ -134,4 +135,56 @@ body {
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 1rem;
+}
+
+.section-counter {
+  background: var(--light-orange-color);
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.total-people {
+  width: 30%;
+  margin: 50px;
+}
+
+.impact {
+  color: var(--dark-blue-color);
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.community {
+  color: var(--dark-blue-color);
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.active {
+  color: var(--dark-blue-color);
+  line-height: 2rem;
+}
+
+.counters {
+  width: 40%;
+  margin: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.counter {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.counters p {
+  margin: 10px;
+  text-align: center;
+  color: var(--dark-blue-color);
 }
