@@ -8,6 +8,7 @@
   --white-color: #fff;
   --light-green-color: #d4e682;
   --light-orange-color: #f5b359;
+  --card-background: #007d8c;
 }
 
 body {
@@ -53,7 +54,7 @@ body {
 }
 
 .section-elder {
-  background-image: url('https://careibu.com/wp-content/uploads/2021/09/2021_SS_Careibu_01-Willem-Hadia-scaled.jpg');
+  background-image: url('./images/section-elder.jpeg');
   height: 700px;
   background-position: center;
   background-size: cover;
@@ -95,4 +96,42 @@ body {
   margin: 10px 0;
   border-radius: 10px;
   font-weight: bold;
+}
+
+.section-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-cards-card {
+  margin: 20px;
+  width: calc(33.33% - 20px);
+  border-radius: 15px;
+  overflow: hidden;
+  background: var(--card-background);
+}
+
+.card-img {
+  width: 100%;
+  height: 300px;
+}
+
+.card-title-black,
+.card-title-white {
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.card-title-white {
+  color: var(--white-color);
+}
+
+.card-button {
+  margin: 10px;
+  margin-top: 50px;
+  margin-left: 30px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1rem;
 }

@@ -2,12 +2,10 @@
 
 import { createNavbar } from './views/createNavbar.js';
 import { createSectionElder } from './views/createSectionElder.js';
+import { createSectionCards } from './views/createSectionCards.js';
 
 export const main = () => {
-  try {
-    createNavbar();
-    createSectionElder();
-  } catch (error) {
-    console.log(error);
-  }
+  createNavbar();
+  createSectionElder();
+  createSectionCards();
 };

@@ -22,5 +22,4 @@ export const createSectionElder = () => {
                               <button class="elder-card-button">Register immediately</button>
                             </div>`;
   userInterface.appendChild(sectionElder);
-  //       <section class="section-elder"></section>
 };
