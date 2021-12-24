@@ -10,6 +10,8 @@
   --light-orange-color: #f5b359;
   --card-background: #007d8c;
   --dark-blue-color: #003264;
+  --dark-pink-color: #a56e96;
+  --light-green2-color: #aad282;
 }
 
 body {
@@ -23,6 +25,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: var(--dark-pink-color);
+  height: 80px;
 }
 
 .nav-bar-logo img {
@@ -52,11 +56,12 @@ body {
   margin: 10px 0;
   border-radius: 10px;
   font-weight: bold;
+  border: none;
 }
 
 .section-elder {
   background-image: url('./images/section-elder.jpeg');
-  height: 700px;
+  height: 800px;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -97,12 +102,15 @@ body {
   margin: 10px 0;
   border-radius: 10px;
   font-weight: bold;
+  border: none;
 }
 
 .section-cards {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: var(--white-color);
+  height: 650px;
 }
 
 .section-cards-card {
@@ -110,7 +118,7 @@ body {
   width: calc(33.33% - 20px);
   border-radius: 15px;
   overflow: hidden;
-  background: var(--card-background);
+  background: var(--light-green-color);
 }
 
 .card-img {
@@ -124,8 +132,12 @@ body {
   margin-left: 20px;
 }
 
+.card-title-black {
+  color: var(--dark-blue-color);
+}
+
 .card-title-white {
-  color: var(--white-color);
+  color: var(--dark-pink-color);
 }
 
 .card-button {
@@ -135,6 +147,8 @@ body {
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 1rem;
+  border: none;
+  background: var(--light-orange-color);
 }
 
 .section-counter {
@@ -147,7 +161,7 @@ body {
 
 .total-people {
   width: 30%;
-  margin: 50px;
+  margin-left: 100px;
 }
 
 .impact {
@@ -172,7 +186,7 @@ body {
 
 .counters {
   width: 40%;
-  margin: 50px;
+  margin-right: 100px;
   padding: 10px;
   display: flex;
   justify-content: space-around;
@@ -187,4 +201,52 @@ body {
   margin: 10px;
   text-align: center;
   color: var(--dark-blue-color);
+}
+
+.section-contact-us {
+  background: var(--dark-pink-color);
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  width: 50%;
+}
+
+.contact-first-p {
+  text-align: center;
+  margin: 50px auto;
+  color: var(--white-color);
+  font-size: 2rem;
+}
+
+.contact-second-p {
+  text-align: center;
+  margin: 50px auto;
+  color: var(--dark-blue-color);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.contact-third-p {
+  text-align: center;
+  margin: 20px auto;
+  color: var(--dark-blue-color);
+  font-size: 1.2rem;
+}
+
+.contact-button-container {
+  display: flex;
+}
+
+.contact-button {
+  margin: 30px auto;
+  background: var(--light-green2-color);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
 }

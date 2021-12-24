@@ -8,7 +8,7 @@ export const createSectionCounter = () => {
   sectionCounter.innerHTML = `<div class="total-people">
                                 <p class="impact">The impact we make</p>
                                 <p class="community">
-                                  Our community of students has already helped 7,814 people
+                                  Our community of students has already helped 10,700 people
                                 </p>
                                 <p class="active">
                                   We have been active throughout the Netherlands since 2009! And so
