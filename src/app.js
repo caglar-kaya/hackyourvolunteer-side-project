@@ -5,6 +5,7 @@ import { createSectionElder } from './views/createSectionElder.js';
 import { createSectionCards } from './views/createSectionCards.js';
 import { createSectionCounter } from './views/createSectionCounter.js';
 import { createSectionContact } from './views/createSectionContact.js';
+import { createFooter } from './views/createFooter.js';
 
 export const main = () => {
   createNavbar();
@@ -12,4 +13,5 @@ export const main = () => {
   createSectionCards();
   createSectionCounter();
   createSectionContact();
+  createFooter();
 };
