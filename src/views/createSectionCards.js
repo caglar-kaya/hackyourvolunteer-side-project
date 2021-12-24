@@ -7,7 +7,7 @@ export const createSectionCards = () => {
   sectionCards.innerHTML = `<div class="section-cards-card">
                               <img
                                 class="card-img"
-                                src="../public/images/elder-young.jpeg"
+                                src="./public/images/elder-young.jpeg"
                                 alt="Volunteering or side job like a senior's buddy"
                               />
                               <h3 class="card-title-black">Volunteering or side job</h3>
@@ -17,7 +17,7 @@ export const createSectionCards = () => {
                             <div class="section-cards-card">
                               <img
                                 class="card-img"
-                                src="../public/images/baby-sitter.jpeg"
+                                src="./public/images/baby-sitter.jpeg"
                                 alt="Volunteering or side job like a senior's buddy"
                               />
                               <h3 class="card-title-black">side job</h3>
@@ -27,7 +27,7 @@ export const createSectionCards = () => {
                             <div class="section-cards-card">
                               <img
                                 class="card-img"
-                                src="../public/images/cleaning-help.jpeg"
+                                src="./public/images/cleaning-help.jpeg"
                                 alt="Volunteering or side job like a senior's buddy"
                               />
                               <h3 class="card-title-black">side job</h3>
